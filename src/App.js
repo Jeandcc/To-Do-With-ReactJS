@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./css/webflow.css";
-//import "./css/normalize.css";
 import "./css/app.css";
 
 import Input from "./components/Input";
