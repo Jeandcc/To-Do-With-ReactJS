@@ -94,8 +94,6 @@ a {
 
 .user-name {
   display: inline;
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: #4a4a4a;
   font-size: 14px;
   line-height: 17px;
@@ -115,7 +113,6 @@ a {
 
 .text-content {
   display: inline;
-  margin-bottom: 0px;
   line-height: 17px;
   font-weight: 400;
 }
