@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 60px 20px 42px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #4267b2;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+  font-size: 30px;
+  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.link-2 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.posts-list {
+  width: 80%;
+  max-width: 700px;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+}
+
+.post-creator {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.div-block {
+  display: inline-block;
+}
+
+.post-creator-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  line-height: 140%;
+}
+
+.user-name {
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+}
+
+.post-date {
+  display: inline-block;
+  color: #9a9a9a;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.post-content-wrapper {
+  margin-top: 15px;
+}
+
+.text-content {
+  display: inline;
+  margin-bottom: 0px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.separator-line {
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #e9ebee;
+}
+
+.comment-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.comment-content {
+  margin-left: 10px;
+  padding: 10px 15px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-radius: 20px;
+  background-color: #e9ebee;
+}
+
+.body-2 {
+  background-color: #7159c1;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+.page-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.add-item-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 0 hsla(0, 0%, 100%, 0.5);
+}
+
+.content-wrapper {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.to-do-input {
+  margin-bottom: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px none #000;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.to-do-input:focus {
+  border: 1px none #000;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70px;
+  padding: 0px 15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #539ddf;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.button.done {
+  background-color: #15ccb7;
+}
+
+.items-list {
+  overflow: hidden;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 0 hsla(0, 0%, 100%, 0.48);
+  color: #000;
+}
+
+.to-do-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.to-do-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 140%;
+}
